@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-rows: 25% 25% 10% 25% 10% 25%;
+    width: 45%;
+    margin: 0 auto;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C5D3EE;
+}
+
+#titleArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 65%;
+    height: 55%;
+    font-size: 2.5rem;
+}
+
+.firstRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.profilePic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.firstRow article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.reachMe article {
+    float: left;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.helpMe {
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.helpMe div {
+    width: 100%;
+}
+
+.secondRow {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.thirdRow {
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.thirdRow article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.thirdRow .firstColumn {
+    display: flex;
+    align-items: flex-start;
+}
+
+.thirdRow .middle {
+    display: flex;
+    background-color: #C5D3EE;
+}
+
+.thirdRow .thirdColumn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thirdRow h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: #C5D3EE;
+    width: 100%;
+    height: 50px;
+}
+
+.fourthRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5%;
+}
+
+.fourthRow article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourthRow h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C5D3EE;
+    width: 100%;
+    height: 50px;
+}
+
+.fourthRow p {
+    background-color: #C5D3EE;
+    height: 4px;
+    width: 100%;
+}
+
+.fifthRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    
+}
+
+.underline {
+    height: 4px;
+    width: 100%;
+    background-color: #C5D3EE;
+}
+
+hr {
+    height: 4px;
+    color: #C5D3EE;
+    background-color: #C5D3EE;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
