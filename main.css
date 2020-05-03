@@ -30,7 +30,7 @@ body {
     color: white;
     margin-top: 25px;
     margin-bottom: 25px;
-    width: 475px;
+    width: 350px;
     margin: 25px auto;
     text-align: center;
     border: black 4px solid;
@@ -105,7 +105,7 @@ header h1 {
 }
 
 .fas {
-    font-size: 75px;
+    font-size: 60px;
 }
 
 .icons {
