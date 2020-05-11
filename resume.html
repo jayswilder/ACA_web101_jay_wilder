@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="resume-interactive.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
     <title>
         Jamie Wilson - Accountant Resume
     </title>
@@ -11,7 +16,7 @@
 <body>
     <header>
         <article id="titleArea">
-        <h1>JAMIE WILSON</h1>
+        <h1 id="name">Jamie Wilson</h1>
         <h4>ACCOUNTANT</h4>
         </article>
     </header>
@@ -45,8 +50,8 @@
                             <img class="helpMe" src="emailIcon.png" alt="Icon for Email indicator">
                         </article>
                         <article>
-                            <p>(04) 209 198 298</p>
-                            <p>+76 1981 2988 3771</p><br>
+                            <p id="number" onclick="showNumber()">hidden</p>
+                            <p id="number2" onclick="showNumber2()">hidden</p><br>
                             <p>jamiewilson@email.com</p>
                         </article>
                 </section>
